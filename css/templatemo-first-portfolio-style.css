@@ -722,13 +722,25 @@ strong {
 -----------------------------------------*/
 .projects-thumb {
   background: var(--section-bg-color);
-  border: 2px solid var(--white-color);
+  border-bottom: 2px solid #14B789;
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
   margin-top: 24px;
   margin-bottom: 24px;
   padding: 40px;
+  transition: all ease 0.5s;
+}
+
+.projects-thumb-new {
+  background: var(--section-bg-color);
+  border: 2px solid var(--white-color);
+  border-radius: var(--border-radius-medium);
+  position: relative;
+  overflow: hidden;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  /* padding: 40px; */
   transition: all ease 0.5s;
 }
 
@@ -756,9 +768,19 @@ strong {
   /* transform: rotate(0deg) translateY(180px); */
   transition: all ease 0.5s;
 }
+.projects-image-new {
+  /* border-radius: var(--border-radius-medium); */
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 5px;
+  /* transform: rotate(0deg) translateY(180px); */
+  transition: all ease 0.5s;
+}
 
 .projects-title {
   margin-bottom: 12px;
+  color: var(--primary-color);
 }
 
 .projects-tag {
@@ -774,7 +796,7 @@ strong {
   CONTACT              
 -----------------------------------------*/
 .contact {
-  background: var(--section-bg-color);
+  background: var(--primary-color);
 }
 
 .contact-info {
@@ -897,7 +919,7 @@ strong {
 }
 
 .site-footer-title {
-  font-size: var(--menu-font-size);
+  font-size: 18px;
   color: var(--dark-color);
   text-transform: uppercase;
 }
