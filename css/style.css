@@ -283,7 +283,7 @@ body {
   }
 
   .footer-section {
-    background: var(--secondary-color);
+    background: orange;
     position: relative;
   }
   .footer-cta {
