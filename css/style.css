@@ -283,7 +283,7 @@ body {
   }
 
   .footer-section {
-    background: orange;
+    background: var(--secondary-color);
     position: relative;
   }
   .footer-cta {
@@ -291,11 +291,10 @@ body {
     padding-bottom: 8px !important;
   }
   .single-cta i {
-    color: #ff5e14;
-    font-size: 30px;
+    color: #d7591e;
+    font-size: 25px;
     float: left;
     margin-right: 10px;
-    margin-bottom: 10px;
   }
   .cta-text {
     /* padding-left: 15px; */
@@ -310,7 +309,7 @@ body {
   } */
   .cta-text span {
     color: #757575;
-    font-size: 15px;
+    font-size: 20px;
   }
   .footer-content {
     position: relative;
@@ -655,18 +654,18 @@ body {
 
 
 .containers{
-    width: 700px;
+    width: 660px;
     position: relative;
     display: flex;
     justify-content: center;
-    margin: 25px;
+    /* margin: 25px; */
 
 }
 
 .containers .cards {
   position: relative;
   border-radius: 10px;
-  margin: 20px;
+  margin: 15px;
 }
 
 .containers .cards .icon {
@@ -700,7 +699,7 @@ body {
 
 
 .containers .cards .face {
-  width: 450px;
+  width: 400px;
   height: 200px;
   transition: 0.5s;
 }
@@ -758,7 +757,7 @@ body {
 }
 
 .containers .cards .face.face2 .content h3 {
-  margin: 0 0 10px 0;
+  /* margin: 0 0 10px 0; */
   padding: 0;
   color: #fff;
   font-size: 24px;

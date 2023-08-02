@@ -1,0 +1,1198 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="TemplateMo">
+
+    <title>Politick Now</title>
+
+
+    <!-- CSS FILES -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="css/magnific-popup.css" rel="stylesheet">
+
+    <link href="css/templatemo-first-portfolio-style.css" rel="stylesheet">
+    <style>
+        * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --purple: hsl(240, 80%, 89%);
+  --pink: hsl(0, 59%, 94%);
+  --light-bg: hsl(204, 37%, 92%);
+  --light-gray-bg: hsl(0, 0%, 94%);
+  --white: hsl(0, 0%, 100%);
+  --dark: hsl(0, 0%, 7%);
+  --text-gray: hsl(0, 0%, 30%);
+}
+
+body {
+  background: var(--light-bg);
+  font-family: "Space Grotesk", sans-serif;
+  color: var(--dark);
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.7;
+  font-weight: 300;
+  color: var(--text-gray);
+}
+
+.description {
+  white-space: wrap;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+  gap: 24px;
+  padding: 12px;
+  flex-wrap: wrap;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  position: relative;
+  padding: 24px;
+  background: #fff;
+}
+
+.box-top {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 12px;
+  margin-bottom: 36px;
+}
+
+.box-image {
+  width: 100%;
+  height: 240px;
+  object-fit: contain;
+  object-position: 50% 20%;
+}
+
+.title-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box-title {
+  border-left: 3px solid var(--purple);
+  padding-left: 12px;
+}
+
+.user-follow-info {
+  color: hsl(0, 0%, 60%);
+}
+
+.button {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: auto;
+  padding: 16px;
+  color: #fff;
+  font-weight: bold;
+  background: #14B789;
+  transition: background 0.4s ease;
+  border-radius: 40px;
+}
+
+.button:hover {
+  background: #535da1;
+  color: white;
+  box-shadow: 0px 0px 0px 1px white;
+}
+
+.fill-one {
+  background: var(--light-bg);
+}
+
+.fill-two {
+  background: var(--pink);
+}
+
+/* RESPONSIVE QUERIES */
+
+@media (min-width: 320px) {
+  .title-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+  }
+  .user-follow-info {
+    margin-top: 6px;
+  }
+}
+
+@media (min-width: 460px) {
+  .title-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+  }
+  .user-follow-info {
+    margin-top: 6px;
+  }
+}
+
+@media (min-width: 640px) {
+  .box {
+    flex-basis: calc(50% - 12px);
+  }
+  .title-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+  }
+  .user-follow-info {
+    margin-top: 6px;
+  }
+}
+
+@media (min-width: 840px) {
+  .title-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+  }
+  .user-follow-info {
+    margin-top: 6px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .box {
+    flex-basis: calc(33.3% - 16px);
+  }
+  .title-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+  }
+  .user-follow-info {
+    margin-top: 6px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .box {
+    flex-basis: calc(25% - 18px);
+  }
+}
+
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <section class="preloader">
+        <div class="spinner">
+            <span class="spinner-rotate"></span>
+        </div>
+    </section>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a href="index.html" class="navbar-brand mx-auto mx-lg-0"><img src="./images/logo.png"
+                    style="height: 40px; width: 140px;"></a>
+
+            <div class="d-flex align-items-center d-lg-none">
+                <!-- <i class="navbar-icon bi-telephone-plus me-3"></i> -->
+                <a class="custom-btn btn" href="./login.html">
+                    Get Consulting
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-lg-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li> -->
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./services.html">Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pricing.html">Pricing</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="d-lg-flex align-items-center d-none ms-auto">
+                    <!-- <i class="navbar-icon bi-telephone-plus me-3"></i> -->
+                    <a class="custom-btn btn" href="./login.html">
+                        Get Consulting
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <main>
+
+        <section class="hero d-flex justify-content-center align-items-center" id="section_1">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-7 col-12">
+                        <div class="hero-text">
+                            <div class="hero-title-wrap d-flex">
+
+                                <!-- <img src="images/flag.png" class="avatar-image avatar-image-large img-fluid" alt=""> -->
+
+                                <!-- <img src="images/neta.png" class="hero-image " alt=""> -->
+                                <h1 class="hero-title">Get Scalable Digital Marketing Solutions to Win Your Political
+                                    Campaign</h1>
+                            </div>
+                            <h2 class="mb-4">We'll help you reach and engage targeted voters online</h2>
+
+                            <p class="mb-4"><a class="custom-btn btn custom-link" href="#section_2">Let's Begin</a></p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5 col-12 position-relative">
+                        <div class="hero-image-wrap"></div>
+                        <img src="images/background1.png" class="hero-image " alt="">
+                    </div>
+
+                </div>
+            </div>
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#535da1" fill-opacity="1"
+                    d="M0,160L24,160C48,160,96,160,144,138.7C192,117,240,75,288,64C336,53,384,75,432,106.7C480,139,528,181,576,208C624,235,672,245,720,240C768,235,816,213,864,186.7C912,160,960,128,1008,133.3C1056,139,1104,181,1152,202.7C1200,224,1248,224,1296,197.3C1344,171,1392,117,1416,90.7L1440,64L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z">
+                </path>
+            </svg>
+        </section>
+
+
+
+
+        <!-- <div class="containers">
+            <div class="row">
+                <div class=" col-lg-4  col-md-6 col-xs-12 justify-content-center">
+                    <div class="card">
+                        <img class="card-img-top" src="https://pbs.twimg.com/media/DOAyiW7U8AARcGE.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Natural Photography</h4>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                            <a href="javascript:void(0);" class="btn btn-outline-primary btn-lg btn-block btnalt"><i class="fa fa-heart"></i> Love this pic</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 col-xs-12">
+                    <div class="card">
+                        <img class="card-img-top" src="https://pbs.twimg.com/media/DOAyiW_VAAAA6Yo.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Natural Photography</h4>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <a href="javascript:void(0);" class="btn btn-outline-success btn-lg btn-block btnalt"><i class="fa fa-heart"></i> Love this pic</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 col-xs-12">
+                    <div class="card">
+                        <img class="card-img-top" src="https://pbs.twimg.com/media/DOAyiW5UIAAl-6I.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Natural Photography</h4>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <a href="javascript:void(0);" class="btn btn-outline-warning btn-lg btn-block btnalt"><i class="fa fa-heart"></i> Love this pic</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-12" style="position: relative; top: 50px; ">
+                    <p style="font-style: italic; color: #2196f3; font-size: 18px; text-align: center; margin-top: 50px; margin-bottom: 20px;">Follow me on Twitter: <a href="https://twitter.com/mrdogra007/" target="_blank">@mrdogra007</a></p>
+                </div>
+            </div>
+        </div> -->
+
+
+        <!-- Package 1: Essential Political Campaign Kit -->
+
+        <div class="col-lg-12 col-md-12 col-12 ms-auto mt-5">
+            <div class="section-title">
+                <!-- <img src="images/logo.png" class="avatar-image img-fluid" alt=""> -->
+
+                <h2 class="text-white ms-4 mb-0">Essential Political Campaign Kit</h2>
+                <small class="projects-tag text-white">This package is designed to kickstart your political campaign and establish a strong online presence in the first crucial 60 days. It includes key promotional services to effectively reach your target audience and engage with voters.
+
+
+                </small>
+            </div>
+        </div>
+
+        <div class="wrap">
+            <div class="box">
+              <div class="box-top">
+                <img class="box-image" src="./images/content4.png" alt="Girl Eating Pizza">
+                <div class="title-flex">
+                  <h3 class="box-title">Social Media Setup and Optimization</h3>
+                  <!-- <p class="user-follow-info">17 Projects</p> -->
+                </div>
+                <p class="description">Creation and optimization of Facebook, Twitter, and Instagram accounts.
+                </p>
+                <p class="description">Customization of profiles to reflect your political brand.
+                </p>
+              </div>
+              <a href="#" class="button">Read More</a>
+            </div>
+            <div class="box">
+              <div class="box-top">
+                <img class="box-image" src="./images/content1.png" alt="Girl Eating Pizza">
+                <div class="title-flex">
+                  <h3 class="box-title">Content Strategy and Creation</h3>
+                  <!-- <p class="user-follow-info">33 Projects</p> -->
+                </div>
+                <p class="description">Development of a content strategy tailored to your campaign goals.
+                </p>
+                <p class="description">
+                    Creation of engaging posts, including policy highlights, personal stories, and visuals.
+
+                </p>
+              </div>
+              <a href="#" class="button">Read More</a>
+            </div>
+            <div class="box">
+              <div class="box-top">
+                <img class="box-image" src="./images/content3.jpeg" alt="Girl Eating Pizza">
+                <div class="title-flex">
+                  <h3 class="box-title">Social Media Advertising</h3>
+                  <!-- <p class="user-follow-info">26 Projects</p> -->
+                </div>
+                <p class="description">Targeted Facebook and Instagram ad campaigns to reach a broader audience.</p>
+                <p class="description">Ad creation and optimization for maximum impact.</p>
+              </div>
+              <a href="#" class="button">Read More</a>
+            </div>
+            <div class="box">
+              <div class="box-top">
+                <img class="box-image" src="./images/content2.jpg" alt="Girl Eating Pizza">
+                <div class="title-flex">
+                  <h3 class="box-title">Online Campaign Kickoff</h3>
+                  <!-- <p class="user-follow-info">12 Projects</p> -->
+                </div>
+                <p class="description">Launch of online campaigns and contests to generate buzz and engagement.
+                </p>
+                <p>Management of campaign performance and results.
+                </p>
+              </div>
+              <a href="#" class="button">Read More</a>
+            </div>
+          </div>
+
+
+
+                 <!-- Package 2: Essential Political Campaign Kit -->
+
+        <div class="col-lg-12 col-md-12 col-12 ms-auto mt-5">
+            <div class="section-title">
+                <!-- <img src="images/logo.png" class="avatar-image img-fluid" alt=""> -->
+
+                <h2 class="text-white ms-4 mb-0">Voter Engagement Plan</h2>
+                <small class="projects-tag text-white">This package focuses on building strong connections with the electorate, ensuring active engagement and support throughout the first 60 days of your political campaign.
+
+
+
+                </small>
+            </div>
+        </div>
+
+        <div class="wrap">
+            <div class="box">
+              <div class="box-top">
+                <img class="box-image" src="./images/content4.png" alt="Girl Eating Pizza">
+                <div class="title-flex">
+                  <h3 class="box-title">Social Media Setup and Optimization</h3>
+                  <!-- <p class="user-follow-info">17 Projects</p> -->
+                </div>
+                <p class="description">Regular interaction with followers, responding to comments, messages, and mentions promptly.
+
+                </p>
+                <p class="description">Initiating conversations to foster a sense of community and connection.
+                    .
+                </p>
+              </div>
+              <a href="#" class="button">Read More</a>
+            </div>
+            <div class="box">
+              <div class="box-top">
+                <img class="box-image" src="./images/content1.png" alt="Girl Eating Pizza">
+                <div class="title-flex">
+                  <h3 class="box-title">User-Generated Content Campaigns</h3>
+                  <!-- <p class="user-follow-info">33 Projects</p> -->
+                </div>
+                <p class="description">Encouragement of user-generated content through contests and polls.
+
+                </p>
+                <p class="description">
+                    Reposting and sharing user content to showcase community involvement.
+
+                </p>
+              </div>
+              <a href="#" class="button">Read More</a>
+            </div>
+            <div class="box">
+              <div class="box-top">
+                <img class="box-image" src="./images/content3.jpeg" alt="Girl Eating Pizza">
+                <div class="title-flex">
+                  <h3 class="box-title">Social Listening and Sentiment Analysis                </h3>
+                  <!-- <p class="user-follow-info">26 Projects</p> -->
+                </div>
+                <p class="description">Monitoring mentions and discussions about your campaign and political issues.
+                </p>
+                <p class="description">Analysis of audience sentiment to understand feedback and respond effectively.
+                </p>
+              </div>
+              <a href="#" class="button">Read More</a>
+            </div>
+            <div class="box">
+              <div class="box-top">
+                <img class="box-image" src="./images/content2.jpg" alt="Girl Eating Pizza">
+                <div class="title-flex">
+                  <h3 class="box-title">Influencer Collaboration</h3>
+                  <!-- <p class="user-follow-info">12 Projects</p> -->
+                </div>
+                <p class="description">Partner with relevant local influencers to amplify your message and reach a wider audience.
+
+                </p>
+                <p>Collaborative campaigns and endorsements.
+                </p>
+              </div>
+              <a href="#" class="button">Read More</a>
+            </div>
+          </div>
+
+                  <!-- Package 3: Essential Political Campaign Kit -->
+
+        <div class="col-lg-12 col-md-12 col-12 ms-auto mt-5">
+            <div class="section-title">
+                <!-- <img src="images/logo.png" class="avatar-image img-fluid" alt=""> -->
+
+                <h2 class="text-white ms-4 mb-0">High-Visibility Political Campaign Package</h2>
+                <small class="projects-tag text-white">This package is designed to maximize your visibility and reach during the initial 60 days of your political campaign, ensuring widespread awareness among the electorate.
+
+
+                </small>
+            </div>
+        </div>
+
+        <div class="wrap">
+            <div class="box">
+              <div class="box-top">
+                <img class="box-image" src="./images/content4.png" alt="Girl Eating Pizza">
+                <div class="title-flex">
+                  <h3 class="box-title">High-Impact Content Creation</h3>
+                  <!-- <p class="user-follow-info">17 Projects</p> -->
+                </div>
+                <p class="description">Creation of visually appealing and engaging content to capture attention.
+
+                </p>
+                <p class="description">Infographics, videos, and graphics highlighting key policies and campaign highlights.
+
+                </p>
+              </div>
+              <a href="#" class="button">Read More</a>
+            </div>
+            <div class="box">
+              <div class="box-top">
+                <img class="box-image" src="./images/content1.png" alt="Girl Eating Pizza">
+                <div class="title-flex">
+                  <h3 class="box-title">Social Media Advertising Blitz</h3>
+                  <!-- <p class="user-follow-info">33 Projects</p> -->
+                </div>
+                <p class="description">Extensive targeted ad campaigns on Facebook, Instagram, and Twitter.
+
+                </p>
+                <p class="description">
+                    Promoting key events, policy announcements, and campaign milestones.
+
+                </p>
+              </div>
+              <a href="#" class="button">Read More</a>
+            </div>
+            <div class="box">
+              <div class="box-top">
+                <img class="box-image" src="./images/content3.jpeg" alt="Girl Eating Pizza">
+                <div class="title-flex">
+                  <h3 class="box-title">Influencer Amplification</h3>
+                  <!-- <p class="user-follow-info">26 Projects</p> -->
+                </div>
+                <p class="description">Collaborating with influential personalities and community leaders to amplify your message.
+                </p>
+                <p class="description">Leveraging their reach to extend your campaign's visibility.
+                </p>
+              </div>
+              <a href="#" class="button">Read More</a>
+            </div>
+            <!-- <div class="box">
+              <div class="box-top">
+                <img class="box-image" src="./images/content2.jpg" alt="Girl Eating Pizza">
+                <div class="title-flex">
+                  <h3 class="box-title">Online Campaign Kickoff</h3>
+                  <p class="user-follow-info">12 Projects</p>
+                </div>
+                <p class="description">Launch of online campaigns and contests to generate buzz and engagement.
+                </p>
+                <p>Management of campaign performance and results.
+                </p>
+              </div>
+              <a href="#" class="button">Read More</a>
+            </div> -->
+          </div>
+
+
+          <!-- Package 4: Complete Political Promotion Blueprint -->
+
+
+          <div class="col-lg-12 col-md-12 col-12 ms-auto mt-5">
+            <div class="section-title">
+                <!-- <img src="images/logo.png" class="avatar-image img-fluid" alt=""> -->
+
+                <h2 class="text-white ms-4 mb-0">Complete Political Promotion Blueprint</h2>
+                <small class="projects-tag text-white">This comprehensive package covers all aspects of your political campaign, providing a strategic and integrated approach for the first 60 days.
+
+                </small>
+            </div>
+        </div>
+
+        <div class="wrap">
+            <div class="box">
+              <div class="box-top">
+                <img class="box-image" src="./images/content4.png" alt="Girl Eating Pizza">
+                <div class="title-flex">
+                  <h3 class="box-title">Complete Social Media Management
+                </h3>
+                  <!-- <p class="user-follow-info">17 Projects</p> -->
+                </div>
+                <p class="description">Full management of your social media accounts across Facebook, Twitter, Instagram, and more.
+
+                </p>
+                <p class="description">Customized content creation, scheduling, and engagement.
+
+                </p>
+              </div>
+              <a href="#" class="button">Read More</a>
+            </div>
+            <div class="box">
+              <div class="box-top">
+                <img class="box-image" src="./images/content1.png" alt="Girl Eating Pizza">
+                <div class="title-flex">
+                  <h3 class="box-title">Social Media Advertising and Analytics
+                </h3>
+                  <!-- <p class="user-follow-info">33 Projects</p> -->
+                </div>
+                <p class="description">Targeted ad campaigns to reach your specific voter segments.
+
+
+                </p>
+                <p class="description">
+                    In-depth analytics to measure campaign performance and optimize strategies.
+
+                </p>
+              </div>
+              <a href="#" class="button">Read More</a>
+            </div>
+            <div class="box">
+              <div class="box-top">
+                <img class="box-image" src="./images/content3.jpeg" alt="Girl Eating Pizza">
+                <div class="title-flex">
+                  <h3 class="box-title">Community Building and Engagement
+                </h3>
+                  <!-- <p class="user-follow-info">26 Projects</p> -->
+                </div>
+                <p class="description">Establishing a strong sense of community through regular interactions and online events.
+
+                </p>
+                <p class="description">User-generated content campaigns to involve voters in your campaign.
+
+                </p>
+              </div>
+              <a href="#" class="button">Read More</a>
+            </div>
+            <div class="box">
+              <div class="box-top">
+                <img class="box-image" src="./images/content2.jpg" alt="Girl Eating Pizza">
+                <div class="title-flex">
+                  <h3 class="box-title">Influencer Collaborations and Partnerships</h3>
+                  <!-- <p class="user-follow-info">12 Projects</p> -->
+                </div>
+                <p class="description">Collaborating with key influencers and stakeholders to strengthen your message.
+
+                </p>
+                <p>Joint campaigns and endorsements to expand your reach.
+
+                </p>
+              </div>
+              <a href="#" class="button">Read More</a>
+            </div>
+          </div>
+
+
+
+          <!-- Second Draft Package 1: 60-Day Essential Political Campaign Kit -->
+
+
+             <div class="col-lg-12 col-md-12 col-12 ms-auto mt-5">
+                <div class="section-title">
+                    <!-- <img src="images/logo.png" class="avatar-image img-fluid" alt=""> -->
+    
+                    <h2 class="text-white ms-4 mb-0">60-Day Essential Political Campaign Kit
+                    </h2>
+                    <small class="projects-tag text-white">This package is designed to kickstart your political campaign and establish a strong online presence in the first crucial 60 days. It includes key promotional services to effectively reach your target audience and engage with voters.
+
+                    </small>
+                </div>
+            </div>
+    
+            <div class="wrap">
+                <div class="box">
+                  <div class="box-top">
+                    <img class="box-image" src="./images/content4.png" alt="Girl Eating Pizza">
+                    <div class="title-flex">
+                      <h3 class="box-title">Social Media Setup and Optimization
+
+                    </h3>
+                      <!-- <p class="user-follow-info">17 Projects</p> -->
+                    </div>
+                    <p class="description">Creation and optimization of Facebook, Twitter, and Instagram accounts.
+
+                    </p>
+                    <p class="description">Customization of profiles to reflect your political brand.
+
+                    </p>
+                  </div>
+                  <a href="#" class="button">Read More</a>
+                </div>
+                <div class="box">
+                  <div class="box-top">
+                    <img class="box-image" src="./images/content1.png" alt="Girl Eating Pizza">
+                    <div class="title-flex">
+                      <h3 class="box-title">Content Strategy and Creation
+                    </h3>
+                      <!-- <p class="user-follow-info">33 Projects</p> -->
+                    </div>
+                    <p class="description">Development of a content strategy tailored to your campaign goals.
+
+    
+                    </p>
+                    <p class="description">
+                        Creation of engaging posts, including policy highlights, personal stories, and visuals.
+
+                    </p>
+                  </div>
+                  <a href="#" class="button">Read More</a>
+                </div>
+                <div class="box">
+                  <div class="box-top">
+                    <img class="box-image" src="./images/content3.jpeg" alt="Girl Eating Pizza">
+                    <div class="title-flex">
+                      <h3 class="box-title">Social Media Advertising
+                    </h3>
+                      <!-- <p class="user-follow-info">26 Projects</p> -->
+                    </div>
+                    <p class="description">Targeted Facebook and Instagram ad campaigns to reach a broader audience.
+    
+                    </p>
+                    <p class="description">Ad creation and optimization for maximum impact.
+    
+                    </p>
+                  </div>
+                  <a href="#" class="button">Read More</a>
+                </div>
+                <div class="box">
+                  <div class="box-top">
+                    <img class="box-image" src="./images/content2.jpg" alt="Girl Eating Pizza">
+                    <div class="title-flex">
+                      <h3 class="box-title">Online Campaign Kickoff</h3>
+                      <!-- <p class="user-follow-info">12 Projects</p> -->
+                    </div>
+                    <p class="description">Launch of online campaigns and contests to generate buzz and engagement.
+
+    
+                    </p>
+                    <p>Management of campaign performance and results
+    
+                    </p>
+                  </div>
+                  <a href="#" class="button">Read More</a>
+                </div>
+              </div>
+    
+
+
+              <!-- Second Draft Package 2: 60-Day Voter Engagement Plan -->
+
+
+             <div class="col-lg-12 col-md-12 col-12 ms-auto mt-5">
+                <div class="section-title">
+                    <!-- <img src="images/logo.png" class="avatar-image img-fluid" alt=""> -->
+    
+                    <h2 class="text-white ms-4 mb-0">60-Day Voter Engagement Plan
+                    </h2>
+                    <small class="projects-tag text-white">This package focuses on building strong connections with the electorate, ensuring active engagement and support throughout the first 60 days of your political campaign.
+
+                    </small>
+                </div>
+            </div>
+    
+            <div class="wrap">
+                <div class="box">
+                  <div class="box-top">
+                    <img class="box-image" src="./images/content4.png" alt="Girl Eating Pizza">
+                    <div class="title-flex">
+                      <h3 class="box-title">Social Media Engagement
+
+
+                    </h3>
+                      <!-- <p class="user-follow-info">17 Projects</p> -->
+                    </div>
+                    <p class="description">Regular interaction with followers, responding to comments, messages, and mentions promptly.
+
+                    </p>
+                    <p class="description">Initiating conversations to foster a sense of community and connection.
+
+                    </p>
+                  </div>
+                  <a href="#" class="button">Read More</a>
+                </div>
+                <div class="box">
+                  <div class="box-top">
+                    <img class="box-image" src="./images/content1.png" alt="Girl Eating Pizza">
+                    <div class="title-flex">
+                      <h3 class="box-title">User-Generated Content Campaigns
+                    </h3>
+                      <!-- <p class="user-follow-info">33 Projects</p> -->
+                    </div>
+                    <p class="description">Encouragement of user-generated content through contests and polls.
+
+    
+                    </p>
+                    <p class="description">
+                        Reposting and sharing user content to showcase community involvement.
+
+                    </p>
+                  </div>
+                  <a href="#" class="button">Read More</a>
+                </div>
+                <div class="box">
+                  <div class="box-top">
+                    <img class="box-image" src="./images/content3.jpeg" alt="Girl Eating Pizza">
+                    <div class="title-flex">
+                      <h3 class="box-title">Social Listening and Sentiment Analysis
+                    </h3>
+                      <!-- <p class="user-follow-info">26 Projects</p> -->
+                    </div>
+                    <p class="description">Monitoring mentions and discussions about your campaign and political issues.
+
+                    </p>
+                    <p class="description">Analysis of audience sentiment to understand feedback and respond effectively.
+                    </p>
+                  </div>
+                  <a href="#" class="button">Read More</a>
+                </div>
+                <div class="box">
+                  <div class="box-top">
+                    <img class="box-image" src="./images/content2.jpg" alt="Girl Eating Pizza">
+                    <div class="title-flex">
+                      <h3 class="box-title">Influencer Collaboration</h3>
+                      <!-- <p class="user-follow-info">12 Projects</p> -->
+                    </div>
+                    <p class="description">Partnering with relevant local influencers to amplify your message and reach a wider audience.
+
+    
+                    </p>
+                    <p>Collaborative campaigns and endorsements.
+
+    
+                    </p>
+                  </div>
+                  <a href="#" class="button">Read More</a>
+                </div>
+              </div>
+    
+
+
+              <!-- Second Draft Package 3: 60-Day High-Visibility Political Campaign Package -->
+
+
+              <div class="col-lg-12 col-md-12 col-12 ms-auto mt-5">
+                <div class="section-title">
+                    <!-- <img src="images/logo.png" class="avatar-image img-fluid" alt=""> -->
+    
+                    <h2 class="text-white ms-4 mb-0">60-Day High-Visibility Political Campaign Package
+                    </h2>
+                    <small class="projects-tag text-white">This package is designed to maximize your visibility and reach during the initial 60 days of your political campaign, ensuring widespread awareness among the electorate.
+
+                    </small>
+                </div>
+            </div>
+    
+            <div class="wrap">
+                <div class="box">
+                  <div class="box-top">
+                    <img class="box-image" src="./images/content4.png" alt="Girl Eating Pizza">
+                    <div class="title-flex">
+                      <h3 class="box-title">High-Impact Content Creation
+
+
+                    </h3>
+                      <!-- <p class="user-follow-info">17 Projects</p> -->
+                    </div>
+                    <p class="description">Creation of visually appealing and engaging content to capture attention.
+
+                    </p>
+                    <p class="description">Infographics, videos, and graphics highlighting key policies and campaign highlights.
+
+                    </p>
+                  </div>
+                  <a href="#" class="button">Read More</a>
+                </div>
+                <div class="box">
+                  <div class="box-top">
+                    <img class="box-image" src="./images/content1.png" alt="Girl Eating Pizza">
+                    <div class="title-flex">
+                      <h3 class="box-title">Social Media Advertising Blitz
+                    </h3>
+                      <!-- <p class="user-follow-info">33 Projects</p> -->
+                    </div>
+                    <p class="description">Extensive targeted ad campaigns on Facebook, Instagram, and Twitter.
+
+                    </p>
+                    <p class="description">
+                        Promoting key events, policy announcements, and campaign milestones.
+
+                    </p>
+                  </div>
+                  <a href="#" class="button">Read More</a>
+                </div>
+                <div class="box">
+                  <div class="box-top">
+                    <img class="box-image" src="./images/content3.jpeg" alt="Girl Eating Pizza">
+                    <div class="title-flex">
+                      <h3 class="box-title">Influencer Amplification
+                    </h3>
+                      <!-- <p class="user-follow-info">26 Projects</p> -->
+                    </div>
+                    <p class="description">Collaborating with influential personalities and community leaders to amplify your message.
+                    </p>
+                    <p class="description">Leveraging their reach to extend your campaign's visibility.
+                    </p>
+                  </div>
+                  <a href="#" class="button">Read More</a>
+                </div>
+                <!-- <div class="box">
+                  <div class="box-top">
+                    <img class="box-image" src="./images/content2.jpg" alt="Girl Eating Pizza">
+                    <div class="title-flex">
+                      <h3 class="box-title">Influencer Collaboration</h3>
+                      <p class="user-follow-info">12 Projects</p>
+                    </div>
+                    <p class="description">Partnering with relevant local influencers to amplify your message and reach a wider audience.
+
+    
+                    </p>
+                    <p>Collaborative campaigns and endorsements.
+
+    
+                    </p>
+                  </div>
+                  <a href="#" class="button">Read More</a>
+                </div> -->
+              </div>
+
+
+
+              
+                 <!-- Second Draft Package 4: 90-Day Complete Political Promotion Blueprint
+ -->
+
+        <div class="col-lg-12 col-md-12 col-12 ms-auto mt-5">
+            <div class="section-title">
+                <!-- <img src="images/logo.png" class="avatar-image img-fluid" alt=""> -->
+
+                <h2 class="text-white ms-4 mb-0">90-Day Complete Political Promotion Blueprint
+                </h2>
+                <small class="projects-tag text-white">This comprehensive package covers all aspects of your political campaign, providing a strategic and integrated approach for the first 60 days.
+
+
+                </small>
+            </div>
+        </div>
+
+        <div class="wrap">
+            <div class="box">
+              <div class="box-top">
+                <img class="box-image" src="./images/content4.png" alt="Girl Eating Pizza">
+                <div class="title-flex">
+                  <h3 class="box-title">Complete Social Media Management</h3>
+                  <!-- <p class="user-follow-info">17 Projects</p> -->
+                </div>
+                <p class="description">Full management of your social media accounts across Facebook, Twitter, Instagram, and more.
+
+                </p>
+                <p class="description">Customized content creation, scheduling, and engagement.
+
+                </p>
+              </div>
+              <a href="#" class="button">Read More</a>
+            </div>
+            <div class="box">
+              <div class="box-top">
+                <img class="box-image" src="./images/content1.png" alt="Girl Eating Pizza">
+                <div class="title-flex">
+                  <h3 class="box-title">Social Media Advertising and Analytics
+                </h3>
+                  <!-- <p class="user-follow-info">33 Projects</p> -->
+                </div>
+                <p class="description">Targeted ad campaigns to reach your specific voter segments.
+
+                </p>
+                <p class="description">
+                    In-depth analytics to measure campaign performance and optimize strategies.
+
+                </p>
+              </div>
+              <a href="#" class="button">Read More</a>
+            </div>
+            <div class="box">
+              <div class="box-top">
+                <img class="box-image" src="./images/content3.jpeg" alt="Girl Eating Pizza">
+                <div class="title-flex">
+                  <h3 class="box-title">Community Building and Engagement
+                </h3>
+                  <!-- <p class="user-follow-info">26 Projects</p> -->
+                </div>
+                <p class="description">Establishing a strong sense of community through regular interactions and online events.
+
+                </p>
+                <p class="description">User-generated content campaigns to involve voters in your campaign.
+
+                </p>
+              </div>
+              <a href="#" class="button">Read More</a>
+            </div>
+            <div class="box">
+              <div class="box-top">
+                <img class="box-image" src="./images/content2.jpg" alt="Girl Eating Pizza">
+                <div class="title-flex">
+                  <h3 class="box-title">Influencer Collaborations and Partnerships
+                </h3>
+                  <!-- <p class="user-follow-info">12 Projects</p> -->
+                </div>
+                <p class="description">Collaborating with key influencers and stakeholders to strengthen your message.
+
+                </p>
+                <p>Joint campaigns and endorsements to expand your reach.
+
+                </p>
+              </div>
+              <a href="#" class="button">Read More</a>
+            </div>
+          </div>
+    
+
+
+
+        <footer class="footer-section">
+            <div class="container">
+                <!-- <div class="footer-cta pt-5 ">
+                        <div class="row">
+                            <div class="col-xl-4 col-md-4 mb-30">
+                                <div class="single-cta">
+                                    <i class="bi bi-geo-fill"></i>
+                                    <div class="cta-text">
+                                        <h4>Find us</h4>
+                                        <span class="text-white">Akshya Nagar 1st Block 1st Cross, Rammurthy nagar, Bangalore-560016 </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-4 mb-30">
+                                <div class="single-cta">
+                                    <i class="bi bi-telephone"></i>
+                                    <div class="cta-text">
+                                        <h4>Call us</h4>
+                                        <span class="text-white">+91 1234567890</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-4 mb-30">
+                                <div class="single-cta">
+                                    <i class="bi bi-envelope"></i>
+                                    <div class="cta-text">
+                                        <h4>Mail us</h4>
+                                        <span class="text-white">contact@gmail.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                <div class="footer-content pt-5 pb-1">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 mb-50">
+                            <div class="footer-widget">
+                                <div class="footer-logo">
+                                    <a href="index.html"><img src="/images/logo.png" class="img-fluid" alt="logo"></a>
+                                </div>
+                                <div class="footer-text">
+                                    <p class="text-white">Learn more about PolitickNow Marketing's full-service
+                                        political website packages and marketing services for your campaign. </p>
+                                </div>
+                                <div class="footer-social-icon">
+                                    <span>Follow us</span>
+                                    <ul class="social_icon">
+                                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                                        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                                        <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 mb-30">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Contact Us</h3>
+                                </div>
+
+                                <div class="single-cta">
+
+                                    <div class="cta-text">
+                                        <i class="bi bi-geo-fill"></i>
+                                        <span class="text-white">Patna Bihar India</span>
+                                    </div>
+                                </div>
+                                <div class="single-cta">
+                                    <!-- <i class="bi bi-telephone"></i> -->
+                                    <div class="cta-text">
+                                        <i class="bi bi-telephone"></i>
+                                        <span class="text-white">+91-1234567890</span>
+                                    </div>
+                                </div>
+
+                                <div class="single-cta">
+                                    <!-- <i class="bi bi-envelope"></i> -->
+                                    <div class="cta-text">
+                                        <i class="bi bi-envelope"></i>
+                                        <span class="text-white">contact@gmail.com</span>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 mb-50">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Subscribe</h3>
+                                </div>
+                                <div class="footer-text mb-25">
+                                    <p class="text-white">Don’t miss to subscribe to our new feeds, kindly fill the form
+                                        below.</p>
+                                </div>
+                                <div class="subscribe-form">
+                                    <form action="#">
+                                        <input type="text" placeholder="Email Address">
+                                        <button><i class="bi bi-telegram"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12 col-12">
+                    <div class="copyright-text-wrap">
+                        <p class="mb-0">
+                            <span class="copyright-text">Copyright © 2023 <a href="#">Politicks Now</a> Company. All
+                                rights reserved.</span>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/click-scroll.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/magnific-popup-options.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>

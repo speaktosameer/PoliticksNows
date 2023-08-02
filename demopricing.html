@@ -1,0 +1,331 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        /* body{
+            font-family:'Courier New', Courier, monospace
+        } */
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding:0 ;
+        }
+        .pricing{
+            background: #e9e9e9;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 2em;
+        }
+        .table{
+            margin: 4em 1.5em;
+            text-align: center;
+            position: relative;
+        }
+        .table-header{
+            width: 26em;
+            height: 13em;
+            background: linear-gradient(331deg, #321d58, #7344c8);
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            clip-path: polygon(
+                0 0,
+                100% 0%,
+                100% 80%,
+                50% 100%,
+                0 80%,
+            );
+        }
+        .shadow-container{
+            filter: drop-shadow(0 1em 1em rgba(0, 0, 0, 0.2));
+        }
+        .price{
+            background: #fff;
+            width: 7em;
+            height: 7em;
+            position: absolute;
+            top: -3.5em;
+            left: 50%;
+            transform: translate(-50%);
+            padding: 1.5em 1em 1em 1em;
+            border-radius: 50%;
+            z-index: 1;
+            box-shadow: 0 1em 1em rgba(0, 0, 0, 0.3);
+        }
+        .price h1{
+            font-size: 2.5em;
+            color: #673ab7;
+        }
+        .price small{
+            color: #999;
+        }
+        .title{
+            color: #fff;
+            text-transform: uppercase;
+        }
+        .title h1{
+            margin: 0.3em;
+            font-size: 1.8em;
+            letter-spacing: 4px;
+        }
+        .title p{
+            font-size: 0.6em;
+            letter-spacing: 1px;
+        }
+        .table-body{
+            width: 24em;
+            margin: -4em auto 0 auto;
+            padding: 4em 1em 1em 1em;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 4em rgba(0, 0, 0, 0.2);
+        }
+        .body-title h2{
+            margin: 1em 0 0.2em 0;
+            color: #222;
+        }
+        .body-title p{
+            color: #777;
+        }
+        .table ul{
+            list-style: none;
+            margin: 1em 0;
+        }
+        .table li{
+            padding: 1.3em 0;
+            color: #999;
+            font-size: 0.9em;
+        }
+        .table li:nth-child(odd){
+            background: #eee;
+        }
+        .table li i{
+            margin-right: 0.3em;
+        }
+        .table li .fa-check{
+            color: #00ff44;
+        }
+        .table button{
+            background: linear-gradient(331deg, #321d58, #7344c8);
+            color: #fff;
+            border: none;
+            border-radius: 5em;
+            padding: 1.1em 2.3em;
+            text-transform: uppercase;
+            font-weight: 600;
+            position: absolute;
+            bottom: -1.5em;
+            left: 50%;
+            transform: translateX(-50%);
+            transition: 0.3s;
+            cursor: pointer;
+        }
+        .table button:hover{
+            background: #fff !important;
+            color: #111;
+            border: 0.5px solid #673ab7;
+        }
+    </style>
+</head>
+<body>
+    <section class="pricing">
+        <div class="table">
+            <div class="price">
+                <h1>3L</h1>
+                <small>/year</small>
+            </div>
+
+            <div class="shadow-container">
+                <div class="table-header">
+                    <div class="title">
+                        <h1>Digital Marketing</h1>
+                        <p>Starter Package</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="table-body">
+                <div class="body-title">
+                    <h2>Services Included</h2>
+                    <!-- <p>Lorem ipsum dolor sit amet</p> -->
+                </div>
+                <ul>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        <span>Social Media Management</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        <span>Paid Social Media Advertising</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        <span>Website Development</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        <span>Advanced SEO</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        <span>Social Listening and Reputation Management</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        <span>Public Relations (PR)</span>
+                    </li>
+                </ul>
+            </div>
+            <button>Order Now</button>
+        </div>
+
+
+        <div class="table">
+            <div class="price">
+                <h1>12L</h1>
+                <small>/year</small>
+            </div>
+
+            <div class="shadow-container">
+                <div class="table-header">
+                    <div class="title">
+                        <h1>Digital Marketing</h1>
+                        <p>Premium Package</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="table-body">
+                <div class="body-title">
+                    <h2>Services Included</h2>
+                    <!-- <p>Premium Package</p> -->
+                </div>
+                <ul>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        <span>Comprehensive Social Media Management</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        <span>Advanced Paid Advertising</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        <span>Email Marketing and Automation</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        <span>Website Development and Conversion Optimization</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        <span>Advanced SEO and Content Marketing</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        <span>Social Listening and Online Reputation Management</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        <span>Public Relations (PR)</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        <span>SMS Marketing</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        <span>Email Marketing Events</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        <span>Influencer Marketing and Partnerships</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        <span>Video Marketing</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        <span>Personal Branding Strategy</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        <span>Social Media Takeovers</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        <span>Live Q&A Sessions</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        <span>Interactive Contests and Polls</span>
+                    </li>
+                </ul>
+            </div>
+            <button>Order Now</button>
+        </div>
+
+        <div class="table">
+            <div class="price">
+                <h1>6L</h1>
+                <small>/year</small>
+            </div>
+
+            <div class="shadow-container">
+                <div class="table-header">
+                    <div class="title">
+                        <h1>Digital Marketing</h1>
+                        <p>Pro Package</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="table-body">
+                <div class="body-title">
+                    <h2>Services Included</h2>
+                    <!-- <p>Lorem ipsum dolor sit amet</p> -->
+                </div>
+                <ul>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        <span>Social Media Management</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        <span>Paid Social Media Advertising</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        <span>Website Development and Optimization</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        <span>Advanced SEO</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        <span>Social Listening and Reputation Management</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        <span>Public Relations (PR)</span>
+                    </li>
+                </ul>
+            </div>
+            <button>Order Now</button>
+        </div>
+
+        
+    </section>
+</body>
+</html>
